@@ -1,0 +1,122 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+header
+{
+    background-color: deeppink;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav 
+{
+    text-align: center;
+}
+
+    nav a 
+    {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 20px;
+    }
+
+.profile-picture
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 30px auto;
+}
+
+.intro
+{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.education-container 
+{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #FFC0CB; 
+    border: 1px solid #FF69B4; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.2); 
+}
+
+h2
+{
+    text-align: center;
+    color: #FF1493; 
+}
+
+.education-entry
+{
+    border-bottom: 1px solid #FF69B4; 
+    padding: 10px 0;
+}
+
+    .education-entry:last-child
+    {
+        border: none; 
+    }
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.contact-method {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+    .contact-method img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .contact-method h2 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .contact-method p {
+        font-size: 16px;
+    }
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
